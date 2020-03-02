@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.galisa" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/baby"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.splash.Splash_galisa">
+
+        </activity>
+
+        <activity
+            android:name=".ui.fragment.bottom_nav_galisa.Bot_nav_galisa"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".ui.sign_up.Sign_up" />
+        <activity android:name=".ui.check_galisa.Check">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.login.Login" />
+
+    </application>
+
+
+</manifest>

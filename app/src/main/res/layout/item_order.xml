@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:elevation="4dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:layout_margin="4dp"
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" مراجعة طلبك "
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/index_order"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" العمر  : "
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:id="@+id/age_order"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:layout_gravity="center"
+                android:textColor="#D6C4E1"
+                android:textSize="18dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" التاريخ  : "
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:id="@+id/date_order"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:layout_gravity="center"
+                android:textColor="#D6C4E1"
+                android:textSize="18dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" الوقت  : "
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:id="@+id/time_order"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:textColor="#D6C4E1"
+                android:textSize="18dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" الاجمالى  : "
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:id="@+id/sum_order"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:layout_gravity="center"
+                android:textColor="#D6C4E1"
+                android:textSize="18dp"
+
+                />
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28sp"
+            android:text=" تعديل "
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

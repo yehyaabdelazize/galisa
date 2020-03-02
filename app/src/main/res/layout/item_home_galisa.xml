@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_tx_age"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" العمر       : "
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/age_galisa"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:layout_gravity="center"
+                android:textColor="#D6C4E1"
+                android:textSize="16dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" التاريخ    : "
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:id="@+id/date_galisa"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:layout_gravity="center"
+                android:textColor="#D6C4E1"
+                android:textSize="16dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" الوقت      : "
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:id="@+id/time_galisa"
+                android:padding="5dp"
+                android:text="#2364526"
+                android:textColor="#D6C4E1"
+                android:textSize="16dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:weightSum="6"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text=" الاجمالى  : "
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/sum_galisa"
+                android:text="#2364526"
+                android:layout_gravity="center"
+                android:textColor="#D6C4E1"
+                android:textSize="16dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:gravity="center"
+            android:background="@drawable/tx_accept">
+
+            <TextView
+                android:id="@+id/accept_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/tx_accept"
+                android:drawableRight="@drawable/ic_check_circle_black_24dp"
+                android:gravity="center"
+                android:paddingLeft="100dp"
+                android:paddingRight="100dp"
+                android:clickable="true"
+                android:text=" قبول "
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

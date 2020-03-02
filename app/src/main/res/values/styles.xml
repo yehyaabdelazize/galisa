@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+
+
+    <style name="mySpinnerItemStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+
+    <style name="datepicker"
+        parent="@android:style/Widget.Material.DatePicker"
+        tools:ignore="NewApi">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+</resources>
