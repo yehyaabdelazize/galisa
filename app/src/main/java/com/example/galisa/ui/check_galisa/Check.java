@@ -68,6 +68,8 @@ public class Check extends AppCompatActivity {
             }
         });
 
+
+
 //
 //        //Posting answers (data entry)
 //        checkViewModel.post.observe(this, new Observer<List<Checkanswer_response>>() {
@@ -79,7 +81,7 @@ public class Check extends AppCompatActivity {
 
 
     }
-    private void updateService(CheckAnswer_request request) {
+    private void postAnswers(CheckAnswer_request request) {
 
         //Obtain an instance of Retrofit by calling the static method.
         Retrofit retrofit = NetworkClient.getRetrofitClient();
@@ -101,7 +103,7 @@ public class Check extends AppCompatActivity {
                  */
                 if(response.isSuccessful())
                 {
-//                    checkBinding.progressBar.setVisibility(View.GONE);
+                    checkBinding.progressBar.setVisibility(View.GONE);
                     final AlertDialog.Builder builder=new AlertDialog.Builder(Check.this);
                     View view=getLayoutInflater().inflate(R.layout.alert_thanking,null);
                     builder.setView(view);
@@ -112,8 +114,8 @@ public class Check extends AppCompatActivity {
             }
             @Override
             public void onFailure(Call<Checkanswer_response> call, Throwable t) {
-//                binding.progressBar.setVisibility(View.GONE);
-//                Toast.makeText(EditServiceActivity.this, t.getMessage(), Toast.LENGTH_SHORT).show();
+                checkBinding.progressBar.setVisibility(View.GONE);
+                Toast.makeText(Check.this, t.getMessage(), Toast.LENGTH_SHORT).show();
 
             }
         });
